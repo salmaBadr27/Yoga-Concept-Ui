@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+/*========== Start Gloabal Style ===============*/
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Open Sans";
+}
+img {
+	max-width: 100%;
+}
+section {
+	padding: 4rem 0;
+}
+
+/*========== End Gloabal Style ===============*/
+
+/*========== Start Header Style ===============*/
+.navbar-brand {
+	padding: 0 1.5rem;
+}
+.nav-link {
+	padding: 0 1.5rem !important;
+	color: #484f5b !important;
+}
+.section__1 {
+	background: url("/img/header.png") center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 1000px;
+}
+
+.heading {
+	margin: 1rem 0;
+	font-weight: bold;
+	font-size: 4rem;
+}
+.text {
+	line-height: 2rem;
+	padding: 1rem 0;
+}
+.yoga-btn {
+	background: #e6c8c3;
+	color: 484f5b;
+	font-size: 1rem;
+	font-weight: bold;
+	border-radius: 0;
+	padding: 0.75rem 2.5rem;
+}
+/*========== End Header Style ===============*/
+
+/*========== Start Section 2 Style ===============*/
+.section__2 {
+	background: url("/img/pregnantpng.png") center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 900px;
+}
+
+#preg {
+	visibility: hidden;
+}
+
+.left {
+	padding-top: 6rem;
+}
+/*========== End Section 2 Style ===============*/
+
+/*========== Start Section 3 Style ===============*/
+
+.section__3 {
+	background: url("/img/body3png.png") center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 900px;
+}
+
+/*========== End Section 3 Style ===============*/
+
+/*========== Start Section 4 Style ===============*/
+.section__4 {
+	background: url("/img/Image3.png") center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 900px;
+}
+/*========== End Section 4 Style ===============*/
+
+/*========== Start Section 5 Style ===============*/
+.section__5 {
+	background: url("/img/Image4.png") center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	/* min-height: 1000px; */
+}
+.card {
+	border: 0;
+	width: 100% !important;
+	margin-bottom: 30px;
+	box-shadow: 10px 10px 10px #efefef;
+}
+
+/*========== End Section 5 Style ===============*/
+
+/*========== Start Section 6 Style ===============*/
+.section__6 {
+	background-color: #e5ccc6;
+	min-height: 500px;
+}
+
+.clickToPlay {
+	background: transparent;
+}
+/*========== End Section 6 Style ===============*/
+
+/*========== Start Form Style ===============*/
+
+.form-control {
+	background-color: #efefef;
+	padding: 2rem 1.75rem !important;
+	border: 1px solid #b0b0b0;
+	border-radius: 0;
+}
+/*========== End Form Style ===============*/
+
+/*========== Start Footer Style ===============*/
+
+footer {
+	background: #484f5b;
+	color: #fff;
+}
+footer ul {
+	line-height: 33px;
+}
+.footer-tap {
+	margin-top: 3rem !important;
+}
+.footer-logo {
+	margin-bottom: 47px;
+}
+.social {
+	margin-top: 35px;
+	width: 64%;
+}
+.domain {
+	margin-top: 4.25rem;
+}
+/*========== End Footer Style ===============*/
+
+@media only screen and (max-width: 778px) {
+	a.nav-link {
+		padding: 0.5rem 0 0.5rem 2rem !important;
+	}
+	section {
+		padding: 2rem 0;
+	}
+	.section__2,
+	.section__3,
+	.section__4,
+	.section__1 {
+		min-height: 500px;
+	}
+	.card {
+		box-shadow: 5px 5px 5px #e5ccc6;
+	}
+	.card-title,
+	.card-text {
+		color: 484f5b;
+	}
+	.heading {
+		font-size: 2.5rem;
+	}
+	.social {
+		width: 100%;
+	}
+	.section__1 {
+		background: none;
+	}
+	.section__2,
+	.section__3,
+	.section__4 {
+		background: none;
+		min-height: 500px;
+	}
+	.left {
+		padding-top: 0;
+	}
+	#mob {
+		flex-direction: column-reverse;
+	}
+	#preg {
+		visibility: visible;
+		display: flex;
+		order: 1;
+	}
+	.section__5 {
+		background: #484f5b;
+		color: #fff;
+	}
+	footer {
+		background-color: #e5ccc6;
+		color: #484f5b;
+	}
+}
+@media only screen and (max-width: 1272px) {
+	a.nav-link {
+		padding: 0.5rem 0 0.5rem 2rem !important;
+	}
+	section {
+		padding: 2rem 0;
+	}
+	.section__2,
+	.section__3,
+	.section__4,
+	.section__1 {
+		min-height: 500px;
+	}
+	.card {
+		box-shadow: 5px 5px 5px #e5ccc6;
+	}
+	.card-title,
+	.card-text {
+		color: 484f5b;
+	}
+	.heading {
+		font-size: 2.5rem;
+	}
+	.social {
+		width: 100%;
+	}
+	.section__1 {
+		background: none;
+	}
+	.section__2,
+	.section__3,
+	.section__4 {
+		background: none;
+		min-height: 500px;
+	}
+	.left {
+		padding-top: 0;
+	}
+	#mob {
+		flex-direction: column-reverse;
+	}
+	#preg {
+		visibility: visible;
+		display: flex;
+		order: 1;
+	}
+}
